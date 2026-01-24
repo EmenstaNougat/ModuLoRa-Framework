@@ -1,5 +1,4 @@
 # ModuLoRa-Framework
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/EmenstaNougat/ModuLoRa-Framework/tree/main)
 
 An open-source, modular ESP32 framework for LoRa wireless communication using the REYAX RYLR998 module. This project provides a complete transmitter and receiver solution, perfect for IoT prototyping, remote monitoring, and custom wireless applications.
 
