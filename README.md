@@ -1,8 +1,13 @@
-# ModuLoRa-Framework
+<h1 align="center">ModuLoRa-Framework - by @emensta</h1>
+<div align="center">
+  <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/0a949301-2898-4d91-903a-2b24ef5db38d" />
+</div>
 
-An open-source, modular ESP32 framework for LoRa wireless communication using the REYAX RYLR998 module. This project provides a complete transmitter and receiver solution, perfect for IoT prototyping, remote monitoring, and custom wireless applications.
+An open-source, modular ESP32 framework for LoRa wireless communication using the REYAX RYLR998 module (feel free to use any LoRa module you'd like). This project provides a complete transmitter and receiver solution, perfect for IoT prototyping, remote monitoring, and custom wireless applications.
 
 The transmitter uses an HC-SR04 ultrasonic sensor to measure distance and sends the data via LoRa. The receiver captures this data, displaying it in real-time on an OLED screen along with signal strength information (RSSI and SNR).
+
+<img width="30%" alt="image" src="https://github.com/user-attachments/assets/74b9b62f-0fca-4538-8141-e1b112813662" />
 
 ## Features
 
@@ -18,12 +23,16 @@ The transmitter uses an HC-SR04 ultrasonic sensor to measure distance and sends 
 ### Common Components
 *   2x ESP32 WROOM 32 Development Boards
 *   2x REYAX RYLR998 LoRa Modules
+<img width="30%" alt="image" src="https://github.com/user-attachments/assets/e1926f5d-3fd6-4e7f-961f-77f06494746d" />
+
 
 ### Transmitter
 *   1x HC-SR04 Ultrasonic Sensor
+<img width="30%" alt="image" src="https://github.com/user-attachments/assets/584af6fd-6788-4b15-89ba-7f0b5cb2b440" />
 
 ### Receiver
 *   1x 0.96" I2C OLED Display (SSD1306)
+<img width="30%" alt="image" src="https://github.com/user-attachments/assets/a87082b9-9903-41e5-bbbf-c03afd2f5b36" />
 
 ## Software & Libraries
 
@@ -93,6 +102,10 @@ You can easily customize the behavior by changing the `#define` values at the to
 *   `LORA_ADDRESS`: The unique address of the receiver module (default: `2`).
 *   `NETWORK_ID`: The LoRa network ID. Must match the transmitter's ID (default: `6`).
 *   `SDA_PIN`/`SCL_PIN`: I2C pins for the OLED display if you need to change them.
+
+## Special Thanks to REYAX!
+
+A heartfelt thank you to **[REYAX Technology](https://reyax.com/)** for providing the **[RYLR998 LoRa modules](https://reyax.com/products/RYLR998)** used in this project. Their support made this development possible and allowed for real-world testing of the long-range communication capabilities showcased in ModuLoRa-Framework.
 
 ## License
 
