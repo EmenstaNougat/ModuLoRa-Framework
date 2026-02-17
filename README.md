@@ -107,6 +107,11 @@ You can easily customize the behavior by changing the `#define` values at the to
 
 A heartfelt thank you to **[REYAX Technology](https://reyax.com/)** for providing the **[RYLR998 LoRa modules](https://reyax.com/products/RYLR998)** used in this project. Their support made this development possible and allowed for real-world testing of the long-range communication capabilities showcased in ModuLoRa-Framework.
 
+**Find the module here:**  
+Amazon: https://bit.ly/4b7gLEL  
+Germany distributor Dacom West: https://www.dacomwest.de/en/portfolio/connect/reyax  
+Germany distributor Mirifica GmbH: https://www.mirifica.de/reyax/
+
 ## License
 
 This project is licensed under the Apache License, Version 2.0. See the [LICENSE](LICENSE) file for the full license text.
